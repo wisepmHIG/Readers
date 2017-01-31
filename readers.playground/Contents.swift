@@ -49,3 +49,15 @@ for item in examInts {
     }
 }
 print(solveInts2)
+
+
+// 각각의 수에 430을 곱한 값을 나열하기.
+
+var doubledNumbers: [Int] = [Int]()
+
+for number in examInts {
+    doubledNumbers.append(number * 430)
+}
+
+print(doubledNumbers)
+
